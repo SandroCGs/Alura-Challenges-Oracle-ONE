@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+	font-size: 62.5%;
+}
+
+*{  
+    margin: 0 auto;
+    padding: 0;
+    background-color: #e9ebf8;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    max-width: 767px;
+    align-items: center;
+}
+
+header img{
+    margin: 24px 0px 24px 16px;
+}
+
+.section-in{
+    margin: 56px 16px 0px 16px;
+}
+
+.text-input{
+    height: 250px;
+    width: 343px;
+    border: none;
+    overflow: none;
+    font-size: 3.2rem;
+    resize: none;
+    line-height: 48px;
+    color:#0A3871;
+    text-transform: lowercase;
+}
+
+.text-input::placeholder{
+    color:#0A3871;
+    font-size: 3.2rem;
+    text-transform: none;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.aviso{
+    gap: 8px;
+    display: flex;
+    align-items: center;    
+}
+
+.aviso p{
+    color:#343A40;
+    font-size: 1.2rem;
+}
+
+
+::placeholder {color:#0A3871;}
+    .text-input:focus{
+        outline: none;
+    }
+
+.botoes{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.botoes button{
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1.6rem;
+}
+
+.btn-criptografar{
+    background-color: #0A3871;
+    color: white;
+}
+
+.btn-descriptografar{
+    background-color: #e9ebf8;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+}
+
+.section-out{
+    margin: 64px 16px 0px 16px;
+    width: 343px auto;
+    border: none;
+    background-color: white;
+    resize: none;
+
+    border-radius: 32px;
+    padding: 32px 32px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section-out h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    background-color: white;
+    margin: 0px 0px 16px 0px;
+    color: #343A40;
+}
+
+.section-out p{
+    font-size: 1.6rem;
+    background-color: white;
+    margin: 16px 0px 0px 0px;
+    color: #495057;
+}
+
+.btn-copiar{
+    border-radius: 24px;
+    font-size: 1.6rem;
+    /* min-width: 279px auto; */
+    width: 279px auto;
+    height: 67px;
+    background-color: white;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    padding: 24px 72px;
+    margin: 16px 0px 0px 0px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+    .botoes{
+        flex-direction: row;
+    }
+
+    .botoes button{
+        width: 332px;
+    }
+
+    .text-input{
+        margin: 0px 40px 0px 40px;
+        /* min-width: 688px; */
+        width: 688px;
+    }
+
+    .btn-copiar{
+        padding: 24px 300px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    *{
+        max-width: 1440px;
+    }
+
+    header img{
+        margin: 40px 0px 0px 16px;
+    }
+    
+    .sessoes{
+        display:flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .section-in{
+        margin: 0px 16px 0px 240px;
+    }
+    
+    .text-input{
+        width: 680px;
+        height: 596px;
+
+    }
+
+    .botoes{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .section-out{
+        margin: 0px 16px 0px 16px;
+        padding-top: 100px;
+        width: 400px;
+        min-height: 700px;
+    }
+    
+    .section-out h2{
+        font-weight: 700;
+    }
+    
+    .section-out p{
+        margin: 16px 0px 0px 0px;
+    }
+    
+    .btn-copiar{
+        margin-top: 400px;
+        
+    }
+}
+
+
