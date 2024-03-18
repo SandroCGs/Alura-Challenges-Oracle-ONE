@@ -17,7 +17,7 @@ function removerAcentos(string) {
 function btnEncriptar(){
 	const textoEncriptado = encriptar(textArea.value);
 	mensagem.textContent = textoEncriptado;
-	mensagem.style.fontSize="24px";
+	mensagem.style.fontSize="2.4rem";
     mensagem.style.fontWeight="400";
     mensagem.style.color="#495057";
     textArea.value = "";
@@ -39,7 +39,7 @@ function encriptar(stringEncriptada){
 function btnDesencriptar(){
 	const textoDesencriptado = desencriptar(textArea.value);
 	mensagem.textContent = textoDesencriptado;
-	mensagem.style.fontSize="24px";
+	mensagem.style.fontSize="2.4rem";
     mensagem.style.fontWeight="400";
     mensagem.style.color="#495057";
     textArea.value = "";
