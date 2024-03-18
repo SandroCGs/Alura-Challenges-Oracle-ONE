@@ -2,6 +2,18 @@ const textArea = document.querySelector(".text-input");
 const mensagem = document.querySelector(".texto-criptografado");
 const textoApagado = document.querySelector(".texto-apagado");
 
+textArea.addEventListener("input", function(event) {
+    const texto = event.target.value;
+    const novoTexto = removerAcentos(texto);
+    if (texto !== novoTexto) {
+        event.target.value = novoTexto;
+    }
+});
+
+function removerAcentos(string) {
+    return string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 function btnEncriptar(){
 	const textoEncriptado = encriptar(textArea.value);
 	mensagem.textContent = textoEncriptado;

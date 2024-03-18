@@ -54,7 +54,7 @@ header img{
 
 .aviso p{
     color:#343A40;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 
@@ -132,6 +132,10 @@ header img{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px){
+    .aviso p{
+        font-size: 2rem;
+    }
+
     .botoes{
         flex-direction: row;
     }
@@ -160,6 +164,10 @@ header img{
         margin: 40px 0px 0px 16px;
     }
     
+    .aviso p{
+        font-size: 2.4rem;
+    }
+
     .sessoes{
         display:flex;
         flex-direction: row;
