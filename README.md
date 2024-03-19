@@ -5,3 +5,4 @@ Está é uma página criada para o Decodificador de Texto - Alura Challenges Ora
 > links importantes:<b>
 > [Trello](https://trello.com/b/EmUFmjCv/decodificador-de-texto-alura-challenges-oracle-one)<b>
 > [figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=10-165&mode=design&t=NKo4pa1rCanU20e5-0)
+> [Github Pages](https://sandrocgs.github.io/Alura-Challenges-Oracle-ONE/)
